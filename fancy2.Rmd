@@ -1,0 +1,18 @@
+---
+title: "My Fancy Presentation 2"
+author: "ksnt"
+date: "2018年9月18日"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## My new Slide
+
+```{r,echo=FALSE,fig.align='center',fig.cap='My awsome figure'}
+plot(mtcars$wt, mtcars$mpg, xlab="weight", ylab="MPG")
+```
